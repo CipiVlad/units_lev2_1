@@ -1,0 +1,75 @@
+/* 
+
+*{} um alle anzusprechen
+
+*/
+/* ====================================
+GENERAL STYLE
+============================= */
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+  padding:1em 1em;
+
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+  font-size: 4em;
+}
+
+p{
+  font-size: 2.7em;
+  margin:1em 0em;
+}
+
+/* ====================================
+SECTION STYLE
+============================= */
+
+section ul li ul li{
+    list-style-type: none;
+}
+
+section ul{
+list-style-type: none;
+}
+
+* section ul li{
+  font-size:0.8em;
+  line-height: 1.5em;
+}
+
+* section li {
+  padding-inline-start:1.2em;
+}
+
+section{
+  font-size: 4em;
+  border: .5rem solid black;
+  margin: .5em .1em;
+}
+
+/* ==================================
+CLASS STYLE 
+=============================== */
+
+.d1::before{
+  content:"🐶"; 
+}
+.d2::before{
+  content:"🐯";
+}
+.d3::before{
+  content:"🦅";
+}
+.d4::before{
+  content:"🐍";
+}
+.d5::before{
+  content:"🦎"; 
+}
+
